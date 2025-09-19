@@ -2,8 +2,11 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'airman-and', // Your GitHub org/user name. (This is the only required config)
   },
+  name: '조현영',
+  bio:
+    '성균관대학교 AAI 전공 학부생입니다. Vision-Language Agent(VLA)와 Speculative Decoding 기술에 깊은 관심을 가지고 있습니다. 궁극적으로는 이러한 AI 기술을 통해 인간의 신체적, 인지적 한계를 뛰어넘는 문제 해결에 기여하고 싶습니다. (INTJ)',
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
@@ -52,28 +55,7 @@ const CONFIG = {
     },
   },
   seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
-  social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    discord: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
-  },
+  social: {},
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
