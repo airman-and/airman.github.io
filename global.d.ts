@@ -328,6 +328,11 @@ interface Config {
   bio?: string;
 
   /**
+   * Optional avatar image URL (local in /public or external URL)
+   */
+  avatar?: string;
+
+  /**
    * Vite's base url
    */
   base?: string;
