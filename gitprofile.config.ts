@@ -5,8 +5,10 @@ const CONFIG = {
     username: 'airman-and', // Your GitHub org/user name. (This is the only required config)
   },
   name: '조현영',
-  bio:
-    '성균관대학교 AAI 전공 학부생입니다. Vision-Language Agent(VLA)와 Speculative Decoding 기술에 깊은 관심을 가지고 있습니다. 궁극적으로는 이러한 AI 기술을 통해 인간의 신체적, 인지적 한계를 뛰어넘는 문제 해결에 기여하고 싶습니다. (INTJ)',
+  bio: `Univ/major = SKKU/AAI
+Interest = VLA/SpecDecod
+MBTI = INTJ
+Goal = Robot > Human`,
   avatar:
     'https://i.namu.wiki/i/2_3T2MGAl0H10PhstAJy2i3g6VCBay2SDxpg4KiXLSu7LOWV6SmA7mevss9bK-3Rkbibe2m0Nvq2fNIDnvjOrA.webp',
   /**
