@@ -84,16 +84,10 @@ Goal = Robot > Human`,
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'SKKU',
+      degree: 'Undergraduate',
+      from: '2024',
+      to: '2026 (졸업 예정)',
     },
   ],
   publications: [
