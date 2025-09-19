@@ -318,6 +318,16 @@ interface Config {
   github: Github;
 
   /**
+   * Optional display name override
+   */
+  name?: string;
+
+  /**
+   * Optional bio override
+   */
+  bio?: string;
+
+  /**
    * Vite's base url
    */
   base?: string;
