@@ -9,7 +9,7 @@ const CONFIG = {
 Interest = VLA/Spec-Decoding/WSSS
 Goal = Robot + AI >>> Human`,
   avatar:
-    '/images/20251005_234524.jpg',
+    'images/20251005_234524.jpg',
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
@@ -41,13 +41,13 @@ Goal = Robot + AI >>> Human`,
         {
           title: 'Self Speculative Decoding on Recursive Transformer',
           description: 'Status: Ongoing at AIM Lab.\nGoal: Submit to a top-tier conference.\nExploring self-speculative decoding for recursive transformer inference.',
-          imageUrl: '/images/image.png',
+          imageUrl: 'images/image.png',
           link: '#',
         },
         {
           title: 'Weakly Supervised Semantic Segmentation',
           description: 'Status: Ongoing at brAIn (SKKU undergraduate student conference).\nGoal: Pass SKKU review and win 1st place.\nBuilding a WSSS pipeline and evaluating on benchmarks.',
-          imageUrl: '/images/image copy.png',
+          imageUrl: 'images/image copy.png',
           link: '#',
         },
       ],
