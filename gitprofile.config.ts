@@ -15,7 +15,7 @@ Goal = Robot + AI >>> Human`,
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/',
+  base: '/airman.github.io/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
