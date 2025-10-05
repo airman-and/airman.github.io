@@ -140,7 +140,7 @@ const PublicationCard = ({
                   <h3 className="text-base sm:text-lg font-bold text-base-content truncate">
                     {loading
                       ? skeleton({ widthCls: 'w-40', heightCls: 'h-8' })
-                      : 'Publications'}
+                      : 'Papers of interest'}
                   </h3>
                   <div className="text-base-content/60 text-xs sm:text-sm mt-1 truncate">
                     {loading

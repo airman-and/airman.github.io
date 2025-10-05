@@ -6,11 +6,10 @@ const CONFIG = {
   },
   name: '조현영',
   bio: `Univ/major = SKKU/AAI
-Interest = VLA/SpecDecod
-MBTI = INTJ
-Goal = Robot > Human`,
+Interest = VLA/Spec-Decoding/WSSS
+Goal = Robot + AI >>> Human`,
   avatar:
-    'https://i.namu.wiki/i/2_3T2MGAl0H10PhstAJy2i3g6VCBay2SDxpg4KiXLSu7LOWV6SmA7mevss9bK-3Rkbibe2m0Nvq2fNIDnvjOrA.webp',
+    '/images/20251005_234524.jpg',
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
@@ -40,20 +39,16 @@ Goal = Robot > Human`,
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          title: 'Self Speculative Decoding on Recursive Transformer',
+          description: 'Status: Ongoing at AIM Lab.\nGoal: Submit to a top-tier conference.\nExploring self-speculative decoding for recursive transformer inference.',
+          imageUrl: '/images/image.png',
+          link: '#',
         },
         {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          title: 'Weakly Supervised Semantic Segmentation',
+          description: 'Status: Ongoing at brAIn (SKKU undergraduate student conference).\nGoal: Pass SKKU review and win 1st place.\nBuilding a WSSS pipeline and evaluating on benchmarks.',
+          imageUrl: '/images/image copy.png',
+          link: '#',
         },
       ],
     },
@@ -61,8 +56,7 @@ Goal = Robot > Human`,
   seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
   social: {},
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
@@ -92,22 +86,24 @@ Goal = Robot > Human`,
   ],
   publications: [
     {
-      title: 'arXiv:2406.09246',
-      journalName: 'arXiv',
-      link: 'https://arxiv.org/pdf/2406.09246',
-      description: '',
+      title: 'OpenVLA: An Open-Source Vision-Language-Action Model',
+      journalName: 'CoRL 2025',
+      link: 'https://arxiv.org/abs/2406.09246',
+      description:
+        'OpenVLA is a 7B open-source vision-language-action model trained on 970K real-world robot demos, combining a Llama 2 language model with DINOv2 and SigLIP visual encoders. It achieves strong generalist manipulation performance, outperforming larger closed models while using far fewer parameters. The model can be efficiently fine-tuned on consumer GPUs via LoRA and served with quantization without degrading success rates.',
     },
     {
-      title: 'arXiv:2211.17192',
-      journalName: 'arXiv',
-      link: 'https://arxiv.org/pdf/2211.17192',
-      description: '',
+      title: 'Fast Inference from Transformers via Speculative Decoding',
+      journalName: 'ICML 2023',
+      link: 'https://arxiv.org/abs/2211.17192',
+      description:
+        'Speculative decoding accelerates inference for large autoregressive Transformers by proposing multiple tokens with a lightweight approximation model and verifying them in parallel with the large model. The method preserves the exact output distribution and requires no retraining or architectural changes, yielding 2–3× speedups on T5-XXL.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -171,11 +167,7 @@ Goal = Robot > Human`,
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: '',
 
   enablePWA: true,
 };
