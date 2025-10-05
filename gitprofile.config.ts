@@ -169,7 +169,7 @@ Goal = Robot + AI >>> Human`,
   // Optional Footer. Supports plain text or HTML.
   footer: '',
 
-  enablePWA: true,
+  enablePWA: false,
 };
 
 export default CONFIG;

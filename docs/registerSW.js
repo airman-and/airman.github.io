@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/airman.github.io/sw.js', { scope: '/airman.github.io/' })})}
